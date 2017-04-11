@@ -7,6 +7,6 @@ target 'GitClient' do
 
     pod 'SwiftyJSON'
     pod 'ESPullToRefresh'
-    pod 'SwiftLoader'
+    pod 'SwiftSpinner'
     pod 'Kingfisher', '~> 3.0'
 end

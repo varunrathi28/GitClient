@@ -24,7 +24,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftLoader.xcscheme</key>
+		<key>SwiftSpinner.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,12 +42,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>34C62A84D0075C992C2D8C0EB1433F3E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3CF858EB1ADDD38FBC7966420A83E15B</key>
+		<key>2B5BE320EA9593BAC9E71A655F360CB0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C4944FEC314D1A66588651D006273ADE</key>
+		<key>9BDA151BEA63F30988FC3153AACD74E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB2A785296AD73775922F1502BA4C529</key>
+		<key>B662073000AC181463FE5D95743A2E78</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4944FEC314D1A66588651D006273ADE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

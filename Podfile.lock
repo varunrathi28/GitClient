@@ -1,21 +1,21 @@
 PODS:
   - ESPullToRefresh (2.6)
   - Kingfisher (3.3.4)
-  - SwiftLoader (0.2.5)
+  - SwiftSpinner (1.1.0)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - ESPullToRefresh
   - Kingfisher (~> 3.0)
-  - SwiftLoader
+  - SwiftSpinner
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   ESPullToRefresh: 85f4990acf87f78c6a1466bbbee7a75d7de24db9
   Kingfisher: 35f289f015d26e81ea6c85048718c6205f3933c6
-  SwiftLoader: 12d7a6f661f5e9a2c9a72003e7dd6162f4ff0cc4
+  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 2a33f034443c3e37b3bef9ac8611cb050a98a125
+PODFILE CHECKSUM: 879e502f51b075a94c494e1a80e69afdfb841619
 
 COCOAPODS: 1.2.0

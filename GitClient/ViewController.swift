@@ -8,13 +8,12 @@
 
 import UIKit
 import ESPullToRefresh
-import NVActivityIndicatorView
+import SwiftSpinner
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView:UITableView!
     var dataSource:[CommitModel] = []
-    var activityIndicator:NVActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
       //  loadDummyData()
@@ -37,9 +36,8 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        activityIndicator = NVActivityIndicatorView(frame: CGRect(x:view.center.x, y: view.center.y, width: 100, height: 100), type:.ballClipRotate, color: UIColor.black, padding: 10)
-        activityIndicator.startAnimating()
+   
+        SwiftSpinner.show("Fetching Commits...")
         let networkService = NetworkService.sharedInstance
         networkService.delegate = self
         networkService.sendRequestForBranches()
@@ -105,13 +103,9 @@ extension ViewController : ServiceHitDelegate
         
         dataSource = response
         tableView.reloadData()
-        activityIndicator.stopAnimating()
+        SwiftSpinner.hide()
+        
     }
-    
-}
-
-extension ViewController: NVActivityIndicatorViewable
-{
     
 }
 

@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GitClient/ViewController.swift"
-            timestampString = "513634475.177924"
+            timestampString = "513635089.439969"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "didRecievedResponse(response:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,7 +170,7 @@
                   moduleName = "GitClient"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/varunrathi/Documents/POC%20Projetcs/New/Demo/GitClient/GitClient/CustomCommitCell.swift"
-                  timestampString = "513634499.119077"
+                  timestampString = "513635313.586796"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -185,7 +185,7 @@
                   moduleName = "GitClient"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/varunrathi/Documents/POC%20Projetcs/New/Demo/GitClient/GitClient/CustomCommitCell.swift"
-                  timestampString = "513634499.121017"
+                  timestampString = "513635313.588891"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -193,6 +193,22 @@
                   offsetFromSymbolStart = "1440">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitClient/ViewController.swift"
+            timestampString = "513635270.30357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="115" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="DjJ-JB-4Pt">
-                                <rect key="frame" x="0.0" y="128" width="375" height="539"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserCommitCell" rowHeight="115" id="KRr-fp-II3" customClass="CustomCommitCell" customModule="GitClient" customModuleProvider="target">
@@ -125,7 +125,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DjJ-JB-4Pt" secondAttribute="bottom" id="FR7-UB-S6D"/>
                             <constraint firstAttribute="trailing" secondItem="DjJ-JB-4Pt" secondAttribute="trailing" id="QB6-Ar-BVr"/>
                             <constraint firstItem="DjJ-JB-4Pt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QFb-aa-aZH"/>
-                            <constraint firstItem="DjJ-JB-4Pt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="SSq-up-iDY"/>
+                            <constraint firstItem="DjJ-JB-4Pt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="SSq-up-iDY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Commits List" id="mfE-1M-cPN"/>
