@@ -102,8 +102,12 @@ extension ViewController : ServiceHitDelegate
     func didRecievedResponse(response: [CommitModel]) {
         
         dataSource = response
-        tableView.reloadData()
-        SwiftSpinner.hide()
+        
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+            SwiftSpinner.hide()
+        }
+        
         
     }
     
