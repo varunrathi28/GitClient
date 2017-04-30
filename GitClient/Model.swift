@@ -8,12 +8,14 @@
 
 import Foundation
 
-public struct CommitModel {
+public class CommitModel {
     
     var userName:String!
     var commitName:String!
     var commitMessage:String?
     var avatarUrl:String?
+    
+    var isBookmarked:Bool!
     
     
     init(userName:String , commitName:String , commitMessage :String , avatarUrl:String) {
@@ -21,6 +23,7 @@ public struct CommitModel {
         self.commitName = commitName
         self.commitMessage = commitMessage
         self.avatarUrl = avatarUrl
+        self.isBookmarked = false
     }
     
 }

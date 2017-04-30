@@ -16,7 +16,8 @@ class CustomCommitCell: UITableViewCell {
     @IBOutlet weak var imgViewUser:UIImageView!
     @IBOutlet weak var lblCommitName:UILabel!
 
-    
+     @IBOutlet weak var btnBookmark:UIButton!
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,11 +26,21 @@ class CustomCommitCell: UITableViewCell {
         lblCommitMessage.textColor = UIColor.darkGray
         imgViewUser.layer.cornerRadius = imgViewUser.frame.size.height/2
         imgViewUser.clipsToBounds = true
+        
+        btnBookmark.setImage(UIImage(named: "bookmark"), for: .normal)
+        btnBookmark.setImage(UIImage(named: "bookmark-filled"), for: .selected)
+   
+        
         // Initialization code
     }
 
-    func updateCell(with commit:CommitModel)
+    func updateCell(with commit:CommitModel, forBookmark:Bool)
     {
+        if forBookmark == true
+        {
+            btnBookmark.isHidden = true
+        }
+        
         if let userName = commit.userName
         {
             lblName.text = userName
@@ -38,6 +49,7 @@ class CustomCommitCell: UITableViewCell {
         if let commitName = commit.commitName , let message = commit.commitMessage
         {
             lblCommitName.text = commitName
+            lblCommitMessage.text = ""
             lblCommitMessage.text = message
         }
         
@@ -47,12 +59,23 @@ class CustomCommitCell: UITableViewCell {
            imgViewUser.kf.setImage(with:URL(string: imageUrl), placeholder: placeholderImage)
         }
         
+        if commit.isBookmarked == true
+        {
+            btnBookmark.isSelected = true
+        }
+        else
+        {
+            btnBookmark.isSelected = false
+            //  btnBookmark.setImage(UIImage(named: "bookmark-filled"), for: .normal)
+        }
+        
     }
     
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
+       // btnBookmark.isSelected = !btnBookmark.isSelected
         // Configure the view for the selected state
     }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373D03C21EB447DF00D88F66 /* BookMarksControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D03C11EB447DF00D88F66 /* BookMarksControllerViewController.swift */; };
 		3743ACEF1E9CD654006C2DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3743ACEE1E9CD654006C2DFB /* AppDelegate.swift */; };
 		3743ACF11E9CD654006C2DFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3743ACF01E9CD654006C2DFB /* ViewController.swift */; };
 		3743ACF41E9CD654006C2DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3743ACF21E9CD654006C2DFB /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		373D03C11EB447DF00D88F66 /* BookMarksControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookMarksControllerViewController.swift; sourceTree = "<group>"; };
 		3743ACEB1E9CD653006C2DFB /* GitClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3743ACEE1E9CD654006C2DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3743ACF01E9CD654006C2DFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				3743ACF01E9CD654006C2DFB /* ViewController.swift */,
+				373D03C11EB447DF00D88F66 /* BookMarksControllerViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				3743AD081E9CE12D006C2DFB /* Model.swift in Sources */,
 				3743ACF71E9CD655006C2DFB /* GitClient.xcdatamodeld in Sources */,
 				3743ACEF1E9CD654006C2DFB /* AppDelegate.swift in Sources */,
+				373D03C21EB447DF00D88F66 /* BookMarksControllerViewController.swift in Sources */,
 				3743AD0A1E9D0502006C2DFB /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
